@@ -1,0 +1,34 @@
+% Colored hyperlinks.
+\newcommand{\chref}[2]{%
+  \href{#1}{{\usebeamercolor[bg]{AAUsimple}#2}}%
+}
+
+% Configures the beamer with all the needed properties
+% to generate a proper title frame.
+\newcommand{\settitleproperties}{
+    \title{\beamertitle}
+    \date{\today}
+    \author{\groupname}
+    \institute{\institutename}
+    
+    \pgfdeclareimage[height = 1.5cm]{titlepagelogo}{AAUgraphics/aau_logo_new}
+    \titlegraphic{
+      \pgfuseimage{titlepagelogo}
+    }
+}
+
+% Create the title frame.
+\newcommand{\maketitleframe}{
+    {\aauwavesbg%
+    \begin{frame}[plain, noframenumbering]
+      \titlepage
+    \end{frame}}
+}
+
+% Make the final frame as a mean to end the presentation in a formal way.
+\newcommand{\makefinalframe}{
+    {\aauwavesbg
+    \begin{frame}[plain, noframenumbering]
+      \finalpage{\finaltitle}
+    \end{frame}}
+}
