@@ -2,8 +2,11 @@
 % Title for the beamer. Should match your report title.
 \newcommand{\beamertitle}{AAU Beamer Template}
 
-% Your group name.
-\newcommand{\groupname}{Group a123}
+% Change this to 1 if this report is your master's or bachelor project
+\def\masterproject{0}
+
+% Your group or author name.
+\newcommand{\groupname}{Author}
 
 % Your education name
 \newcommand{\eduname}{Education Name}
@@ -14,7 +17,17 @@
 % No need to change this if you are a robotics student.
 \newcommand{\institutename}{
     \semesterperiod\\
-    \eduname, Aalborg University
+    \eduname, Aalborg University\\
+    \if\masterproject1
+        \centerline {
+            \begin{minipage}{0.9\textwidth}
+                \bigskip
+                \centering
+                {\Large Master's Project }
+                \smallskip
+            \end{minipage}
+        }
+    \fi
 }
 
 % The text displayed on the final frame.
