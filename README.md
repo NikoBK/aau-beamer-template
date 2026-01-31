@@ -1,4 +1,5 @@
-# aau-beamer-template
-Improved version of Jesper Kjær Nielsen's AAU beamer template, written in LaTex (https://github.com/jkjaer/aauLatexTemplates/tree/master/aauBeamer/aausimple).
-This template unlike my improved report template (find the report template [here](https://github.com/NikoBK/aau-report-template)), is designed to be used by any student
-attending Aalborg University. Keep in mind that the relevant field of study will have to be changed as it is preset to 'Robotics'.
+# AAU Beamer Template (LaTeX)
+Improved version of Jesper Kjær Nielsen's [AAU beamer template](https://github.com/jkjaer/aauLatexTemplates/tree/master/aauBeamer/aausimple), written in LaTex.\
+If you need help setting up, using or modifying this template, I recommend checking out my [personal website's blog](https://nikolajbjoernager.dk/blog/) for relevant posts on this topic as they cover both the report and beamer.
+
+Feel free to contact me with feedback or inquiries regarding the design and structure of this template.
